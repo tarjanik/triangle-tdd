@@ -30,4 +30,12 @@ public class TriangleTest {
         Line line = new Line(new Point(1,3),new Point(5,6 ));
         assertEquals(line.getLength(),5.0,0.00001);
     }
+
+    @Test
+    public void getPointsTest(){
+        // Draw a line from (1,2) to (3,4)
+        // Verify, that endpoints are (1,2),(3,4)
+        Line line = new Line(new Point(1,2),new Point(3,4 ));
+        assertEquals(line,"(1.0, 2.0),(3.0, 4.0)");
+    }
 }

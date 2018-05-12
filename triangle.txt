@@ -3,8 +3,11 @@
 Scenario: 1_dist.jpg [1]
 Scenario: 1_dist.jpg [2]
 Scenario: 1_dist.jpg [3]
+
 2. Side knows endpoints
 ------------------------
+Scenario: in test
+
 3. Triangle
 ------------------------
 4. Lines of triangle

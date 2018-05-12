@@ -1,3 +1,4 @@
+import java.lang.reflect.Array;
 import java.util.Arrays;
 import java.util.List;
 
@@ -15,5 +16,9 @@ public class Triangle {
 
     public List<Point> getPoints() {
         return Arrays.asList(point1, point2, point3);
+    }
+
+    public List<Line> getLines() {
+        return Arrays.asList(new Line(point1,point2), new Line(point2,point3), new Line(point3, point1));
     }
 }

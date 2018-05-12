@@ -20,6 +20,11 @@ public class Line {
 
 
     public List<Point> getPoints() {
-        return Arrays.asList(startPoint,endPoint);
+        return Arrays.asList(startPoint, endPoint);
+    }
+
+    @Override
+    public String toString() {
+        return String.format("Line with start point: %s, end point %s", startPoint, endPoint);
     }
 }

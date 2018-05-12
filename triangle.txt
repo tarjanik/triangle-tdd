@@ -14,5 +14,7 @@ Scenario: 2_tri.jpg
 
 4. Lines of triangle
 ------------------------
+Scenario: 2_tri.jpg
+
 5. Get sides touching a point
 ------------------------

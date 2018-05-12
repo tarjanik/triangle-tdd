@@ -1,6 +1,7 @@
 1. a side has a distance
 ------------------------
 Scenario: 1_dist.jpg [1]
+Scenario: 1_dist.jpg [2]
 2. Side knows endpoints
 ------------------------
 3. Triangle

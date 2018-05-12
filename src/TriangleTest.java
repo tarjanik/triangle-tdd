@@ -12,4 +12,13 @@ public class TriangleTest {
         Line line = new Line(new Point(0,0), new Point(0,5));
         assertEquals(line.getLength(),5.0,0.00001);
     }
+
+    @Test
+    public void verticalLineTest(){
+        // #Scenario 1_dist.jpg [2]
+        // Draw a line from (0,0) to (0,4)
+        // Verify: lenght of the line is 4
+        Line line = new Line(new Point(0,0),new Point(0,4 ));
+        assertEquals(line.getLength(),4.0,0.00001);
+    }
 }

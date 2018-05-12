@@ -1,9 +1,14 @@
 public class Line {
-    public Line(Point startPoint, Point endPoint) {
 
+    private final Point startPoint;
+    private final Point endPoint;
+
+    public Line(Point startPoint, Point endPoint) {
+        this.startPoint = startPoint;
+        this.endPoint = endPoint;
     }
 
     public double getLength() {
-        return 5;
+        return endPoint.getX() - startPoint.getY() + endPoint.getY() - startPoint.getY();
     }
 }

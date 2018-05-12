@@ -9,6 +9,6 @@ public class Line {
     }
 
     public double getLength() {
-        return endPoint.getX() - startPoint.getY() + endPoint.getY() - startPoint.getY();
+        return endPoint.getX() - startPoint.getX() + endPoint.getY() - startPoint.getY();
     }
 }

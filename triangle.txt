@@ -10,6 +10,8 @@ Scenario: in test
 
 3. Triangle
 ------------------------
+Scenario: 2_tri.jpg
+
 4. Lines of triangle
 ------------------------
 5. Get sides touching a point

@@ -1,3 +1,7 @@
+import java.lang.reflect.Array;
+import java.util.Arrays;
+import java.util.List;
+
 public class Line {
 
     private final Point startPoint;
@@ -12,5 +16,10 @@ public class Line {
         double xDiff = endPoint.getX() - startPoint.getX();
         double yDiff = endPoint.getY() - startPoint.getY();
         return Math.sqrt(xDiff * xDiff + yDiff * yDiff);
+    }
+
+
+    public List<Point> getPoints() {
+        return Arrays.asList(startPoint,endPoint);
     }
 }

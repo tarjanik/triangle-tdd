@@ -18,3 +18,4 @@ Scenario: 2_tri.jpg
 
 5. Get sides touching a point
 ------------------------
+Scenario: 2_tri.jpg
